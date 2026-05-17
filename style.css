@@ -118,6 +118,9 @@ footer {
 }
 
 .topbar {
+  position: sticky;
+  top: 1rem;
+  z-index: 12;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -189,8 +192,9 @@ h2 {
 
 h1 {
   margin-bottom: 1rem;
-  font-size: clamp(3.4rem, 11vw, 9.5rem);
+  font-size: clamp(2.6rem, 7.4vw, 7.4rem);
   line-height: 0.88;
+  white-space: nowrap;
 }
 
 .identity-row {
@@ -493,6 +497,6 @@ footer p {
   }
 
   h1 {
-    font-size: clamp(3rem, 17vw, 5rem);
+    font-size: clamp(2rem, 11vw, 3rem);
   }
 }
