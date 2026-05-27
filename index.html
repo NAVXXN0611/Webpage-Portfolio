@@ -1,156 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Naveen Kumar R V | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen | Digital Portfolio</title>
+    <meta name="description" content="Portfolio of Naveen, focusing on premium digital experiences.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="loader" aria-label="Loading portfolio">
-    <div class="loader-mark">NK</div>
-  </div>
 
-  <div class="cursor-glow" aria-hidden="true"></div>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="logo">Naveen.</div>
+        <nav class="nav-links">
+            <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+        </nav>
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+    </header>
 
-  <header class="hero">
-    <span class="shadow-mark" aria-hidden="true">NK</span>
-
-    <section class="hero-content">
-      <p class="tagline">Job & Internship Portfolio</p>
-      <div class="identity-row">
-        <div class="name-block">
-          <h1>Naveen Kumar R V</h1>
-          <p class="profession">CSE Student | Aspiring Software Engineer</p>
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Crafting Digital Experiences</h1>
+            <p>I design and build premium web applications that leave a lasting impression.</p>
+            <a href="#work" class="btn btn-primary hero-btn">Explore Work</a>
         </div>
-        <div class="profile-frame" aria-label="Profile photo placeholder">
-          <span>Profile Photo</span>
+        <div class="hero-image-wrapper">
+            <img src="assets/hero.png" alt="Hero 3D abstract graphic" class="hero-img">
         </div>
-      </div>
-      <nav class="topbar" aria-label="Portfolio links">
-        <a href="#" aria-label="Open resume link">Resume</a>
-        <a href="#" aria-label="Open LinkedIn profile">LinkedIn</a>
-        <a href="#" aria-label="Open GitHub profile">GitHub</a>
-        <a href="#" aria-label="Open Instagram profile">Instagram</a>
-      </nav>
-      <div class="hero-actions">
-        <a class="button primary" href="#projects">View Projects</a>
-        <a class="button ghost" href="#skills">Skills & Courses</a>
-      </div>
-    </section>
-  </header>
-
-  <main>
-    <section class="section about" id="about">
-      <div class="section-copy">
-        <p class="eyebrow">Profile</p>
-        <h2>About Me</h2>
-      </div>
-      <div class="about-panel">
-        <p>
-          I am a CSE student and aspiring software engineer focused on building practical projects, improving my coding discipline, and preparing for job and internship opportunities.
-        </p>
-        <p>
-          This portfolio is made to collect my skills, course certificates, project proofs, and live outputs in one clean place for recruiters and mentors.
-        </p>
-      </div>
     </section>
 
-    <section class="section split" id="skills">
-      <div class="section-copy">
-        <p class="eyebrow">Skill Matrix</p>
-        <h2>Skills & Courses</h2>
-        <p>
-          Add your exact skills and completed courses here later. Each tile is ready for a certificate proof link or image.
-        </p>
-      </div>
-
-      <div class="skill-grid" aria-label="Skills and courses list">
-        <article class="skill-card float-card">
-          <span class="card-index">01</span>
-          <h3>Google CDL Certificate</h3>
-          <p>Completed certification proof for Google CDL learning.</p>
-          <a href="certificates/Google%20CDL%20Certificate.pdf" target="_blank" rel="noopener">Certification proof</a>
-        </article>
-        <article class="skill-card float-card">
-          <span class="card-index">02</span>
-          <h3>Git Intermediate</h3>
-          <p>Completed intermediate-level Git course certification.</p>
-          <a href="certificates/Git%20intermediate.pdf" target="_blank" rel="noopener">Certification proof</a>
-        </article>
-        <article class="skill-card float-card">
-          <span class="card-index">03</span>
-          <h3>MATLAB Onramp</h3>
-          <p>Completed MATLAB Onramp course certification.</p>
-          <a href="certificates/Matlab%20Onramp.pdf" target="_blank" rel="noopener">Certification proof</a>
-        </article>
-        <article class="skill-card float-card">
-          <span class="card-index">04</span>
-          <h3>Git Introduction</h3>
-          <p>Completed Git introduction course certification.</p>
-          <a href="certificates/Git%20Introduction.pdf" target="_blank" rel="noopener">Certification proof</a>
-        </article>
-      </div>
+    <!-- Skills Category Row (like DailyObjects categories) -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Core Competencies</h2>
+        <div class="skills-scroll">
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <span>UI/UX Design</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <span>Frontend Dev</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <span>Backend Dev</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📱</div>
+                <span>Mobile Apps</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🚀</div>
+                <span>Optimization</span>
+            </div>
+        </div>
     </section>
 
-    <section class="section projects" id="projects">
-      <div class="section-copy">
-        <p class="eyebrow">Output Zone</p>
-        <h2>Projects & Results</h2>
-        <p>
-          Place live project links, GitHub repos, or screenshots of finished outputs here.
-        </p>
-      </div>
-
-      <div class="project-board">
-        <article class="project-card">
-          <div class="project-preview">
-            <span>Screenshot / Output</span>
-          </div>
-          <div>
-            <h3>Project Title</h3>
-            <p>Brief result-focused description of the project.</p>
-            <a href="#">Exact output anchor link</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-preview">
-            <span>Screenshot / Output</span>
-          </div>
-          <div>
-            <h3>Project Title</h3>
-            <p>Brief result-focused description of the project.</p>
-            <a href="#">Exact output anchor link</a>
-          </div>
-        </article>
-      </div>
+    <!-- Featured Projects Grid -->
+    <section id="work" class="projects-section">
+        <h2 class="section-title">Featured Collections</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="img-wrapper">
+                    <img src="assets/project1.png" alt="E-commerce Mobile App">
+                </div>
+                <div class="project-info">
+                    <span class="category">Mobile App</span>
+                    <h3>E-Commerce Platform</h3>
+                    <a href="#" class="view-btn">View Case Study</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="img-wrapper">
+                    <img src="assets/project2.png" alt="Dashboard UI">
+                </div>
+                <div class="project-info">
+                    <span class="category">Web App</span>
+                    <h3>Dark Mode Dashboard</h3>
+                    <a href="#" class="view-btn">View Case Study</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="img-wrapper">
+                    <img src="assets/project3.png" alt="Branding Website">
+                </div>
+                <div class="project-info">
+                    <span class="category">Web Design</span>
+                    <h3>Brand Identity Sync</h3>
+                    <a href="#" class="view-btn">View Case Study</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="section contact" id="contact">
-      <div class="section-copy">
-        <p class="eyebrow">Reach Out</p>
-        <h2>Contact Me</h2>
-        <p>
-          Add your email, phone number, or contact form link here when you are ready.
-        </p>
-      </div>
-
-      <div class="contact-panel">
-        <a class="contact-link" href="mailto:mrpolo707@gmail.com">mrpolo707@gmail.com</a>
-        <a class="contact-link" href="tel:+917708771718">+91 7708771718</a>
-        <a class="contact-link" href="#">Contact Form Link</a>
-      </div>
+    <!-- About / Brand Story Section -->
+    <section id="about" class="about-section">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="assets/about.png" alt="Modern desk setup">
+            </div>
+            <div class="about-content">
+                <span class="eyebrow">The Story</span>
+                <h2>Driven by Design, Powered by Code.</h2>
+                <p>I believe that every digital product should be both beautiful and functional. My journey started with a fascination for user interfaces, and has evolved into building complete, scalable web applications.</p>
+                <p>When I'm not coding, I'm exploring new design trends and refining my skills to deliver state-of-the-art experiences.</p>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>Naveen Kumar R V</p>
-    <span>Open to jobs and internships</span>
-  </footer>
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo">Naveen.</div>
+                <p>Creating premium digital goods.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Socials</h4>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="mailto:hello@naveen.com">hello@naveen.com</a>
+                <a href="https://wa.me/917708771718" target="_blank" rel="noopener">WhatsApp Me</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Naveen Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
